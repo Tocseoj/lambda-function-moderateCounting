@@ -77,12 +77,13 @@ exports.handler = async (event) => {
   }
 
   let response = {
-    type: RESPONSE_TYPES['MESSAGE_NO_SOURCE'],
+    type: RESPONSE_TYPES['MESSAGE_WITH_SOURCE'],
     data: {
       tts: false,
       content: "BEEP BOOP",
       embeds: [],
-      allowed_mentions: [],
+      allowed_mentions: { parse: [] },
+      // flags: 64, // ephemeral
     }
   }
 
