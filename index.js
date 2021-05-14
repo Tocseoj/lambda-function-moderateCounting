@@ -93,8 +93,6 @@ exports.handler = async (event) => {
     }
   }
 
-  response.headers = { Authorization: "Bot " + process.env.COUNTING_BOT }
-
   console.log("response", response)
   return response;
 };
