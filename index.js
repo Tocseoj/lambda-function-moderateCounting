@@ -40,7 +40,7 @@ exports.handler = async (event) => {
           "name": "animal",
           "description": "The type of animal",
           "type": 3,
-          "required": True,
+          "required": true,
           "choices": [
             {
               "name": "Dog",
@@ -60,7 +60,7 @@ exports.handler = async (event) => {
           "name": "only_smol",
           "description": "Whether to show only baby animals",
           "type": 5,
-          "required": False
+          "required": false
         }
       ]
     }
