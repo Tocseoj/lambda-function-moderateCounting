@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.21.1",
     "tweetnacl": "^1.0.3"
   },
   "name": "moderatecounting",
